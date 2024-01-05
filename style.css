@@ -12,3 +12,40 @@ font-family: 'Roboto', sans-serif; */
   margin-right: auto;
   max-width: 940px;
 }
+
+.our-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 0;
+  gap: 8rem;
+}
+
+.our-story img {
+  height: 230px;
+}
+
+.our-story-text {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  width: 40%;
+  gap: 1.3rem;
+}
+
+.our-story-text p {
+  font-family: "Roboto", sans-serif;
+  color: #89878e;
+  line-height: 24px;
+}
+
+.our-story-text button {
+  padding: 0.6rem 0.8rem;
+  background-color: white;
+  color: #7cdfd4;
+  border-radius: 3px;
+  font-weight: 800;
+  border: 1px solid #7cdfd4;
+}
