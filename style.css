@@ -1,17 +1,25 @@
 /* font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.w-container {
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*
+.w-container /* our story - Robin*/ {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
 }
+*/
 
 .our-story {
   display: flex;
@@ -49,3 +57,76 @@ font-family: 'Roboto', sans-serif; */
   font-weight: 800;
   border: 1px solid #7cdfd4;
 }
+
+/* form section*/
+
+.w-container  {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fieldset {
+    width: 50vh;
+    border: none;
+}
+
+.name , .email , .message {
+    display: block;
+    margin-top: 1em;
+    min-height: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-color: lightgrey ;
+    
+    
+}
+.submitBtn {
+    padding: 12px 28px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: rgb(0, 255, 255);
+    color: rgb(0, 212, 212);
+    font-weight: bolder;
+    border-radius: 2px;
+    border-width: 1px;
+}
+
+.logo_Title {
+    
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: block;
+    padding: 1.2rem;
+}
+
+.form_title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.logo_1 {
+padding: 3rem 0 3rem 3rem ;
+margin-top: auto;
+;
+align-content: center;
+justify-items: center ;
+
+}
+
+.logo_2 {
+    padding: 3rem;
+    margin-top: auto;
+}
+
+.logo_space {
+    padding: 1.5rem;
+}
+
+form {
+    padding: 4rem;
+}
+
