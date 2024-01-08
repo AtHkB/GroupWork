@@ -3,14 +3,51 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', 'Roboto', 'Playfair Display', sans-serif;
-
-
 }
 
-.w-container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 940px;
+
+.w-container   {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+}
+
+
+.our-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 0;
+  gap: 8rem;
+}
+
+.our-story img {
+  height: 230px;
+}
+
+.our-story-text {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: center;
+  width: 40%;
+  gap: 1.3rem;
+}
+
+.our-story-text p {
+  font-family: "Roboto", sans-serif;
+  color: #89878e;
+  line-height: 24px;
+}
+
+.our-story-text button {
+  padding: 0.6rem 0.8rem;
+  background-color: white;
+  color: #7cdfd4;
+  border-radius: 3px;
+  font-weight: 800;
+  border: 1px solid #7cdfd4;
 }
 
 
@@ -132,3 +169,91 @@
     margin-left: auto;
     border-top: 2px solid #1bb5be;
 }
+
+   /* form section*/
+
+.logo-container  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: middle;
+    flex-direction: row;
+}
+
+.fieldset {
+    width: 50vh;
+    border: none;
+}
+
+.name , .email , .message {
+    display: block;
+    margin-top: 1em;
+    min-height: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-color: lightgrey ;
+    
+    
+}
+.submitBtn {
+    padding: 12px 28px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: rgb(0, 255, 255) 1px solid;
+    color: rgb(0, 212, 212);  
+    font-weight: bolder;
+    border-radius: 2px;  
+    margin: 1rem 0 0 0;
+}
+
+.logo_Title {    
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: block;
+    padding: 1.2rem;
+}
+
+.form_title {
+    padding: 1.2rem 1.2rem 1.2rem 4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.logo_container {
+    display: flex;
+    flex-direction: column;
+    padding:0;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  padding:0;
+  
+}
+
+.logo_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+  img {
+    padding: 1.5rem;
+  }
+}
+
+.headers{
+    flex: 0 1 20%;
+}
+
+form {
+    padding: 4rem;
+    input {
+      border: 1px silver solid;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    textarea {
+      resize: none;
+    }
+}
+
