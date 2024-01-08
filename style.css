@@ -13,8 +13,8 @@ body{
 }
 
 
-/*
-.w-container /* our story - Robin*/ {
+/* our story - Robin 
+.w-container   {
   margin-left: auto;
   margin-right: auto;
   max-width: 940px;
@@ -66,6 +66,8 @@ body{
     max-width: 940px;
     display: flex;
     justify-content: space-evenly;
+    align-items: middle;
+    flex-direction: row;
 }
 
 .fieldset {
@@ -88,15 +90,14 @@ body{
     text-align: center;
     background-color: transparent;
     cursor: pointer;
-    border-color: rgb(0, 255, 255);
-    color: rgb(0, 212, 212);
+    border: rgb(0, 255, 255) 1px solid;
+    color: rgb(0, 212, 212);  
     font-weight: bolder;
-    border-radius: 2px;
-    border-width: 1px;
+    border-radius: 2px;  
+    margin: 1rem 0 0 0;
 }
 
-.logo_Title {
-    
+.logo_Title {    
     font-size: 1.2rem;
     font-weight: bolder;
     display: block;
@@ -104,29 +105,46 @@ body{
 }
 
 .form_title {
+    padding: 1.2rem 1.2rem 1.2rem 4rem;
     font-size: 1.2rem;
     font-weight: bolder;
 }
 
-.logo_1 {
-padding: 3rem 0 3rem 3rem ;
-margin-top: auto;
-;
-align-content: center;
-justify-items: center ;
-
+.logo_container {
+    display: flex;
+    flex-direction: column;
+    padding:0;
 }
 
-.logo_2 {
-    padding: 3rem;
-    margin-top: auto;
+.logos {
+  display: flex;
+  flex-direction: row;
+  padding:0;
+  
 }
 
-.logo_space {
+.logo_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+  img {
     padding: 1.5rem;
+  }
+}
+
+.headers{
+    flex: 0 1 20%;
 }
 
 form {
     padding: 4rem;
+    input {
+      border: 1px silver solid;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    textarea {
+      resize: none;
+    }
 }
 
