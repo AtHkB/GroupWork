@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", "Roboto", "Playfair Display", sans-serif;
+  
 }
 
+body{
+  font-family: "Open Sans", "Roboto", "Playfair Display", sans-serif;
+}
 .w-container {
   margin-left: auto;
   margin-right: auto;
@@ -193,7 +196,7 @@
 
 .text {
   margin-top: 35px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 22px;
   color: #fff;
@@ -225,6 +228,7 @@
 
 .name,
 .email,
+.subject,
 .message {
   display: block;
   margin-top: 1em;
@@ -232,6 +236,7 @@
   padding: 0.5rem;
   width: 100%;
   border-color: lightgrey;
+  color: #89878e;
 }
 .submitBtn {
   padding: 12px 28px;
@@ -243,6 +248,22 @@
   font-weight: bolder;
   border-radius: 2px;
   margin: 1rem 0 0 0;
+
+  transition: background-color 300ms ease;
+  color: rgb(0, 255, 255);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+
+  border: rgb(0, 255, 255) 1px solid;
+}
+
+.submitBtn:hover {
+  color: #fff;
+  background-color: rgb(0, 255, 255);
+  border: 1px solid rgb(0, 255, 255);
 }
 
 .logo_Title {
@@ -250,12 +271,14 @@
   font-weight: bolder;
   display: block;
   padding: 1.2rem;
+  color: #89878e;
 }
 
 .form_title {
   padding: 1.2rem 1.2rem 1.2rem 4rem;
   font-size: 1.2rem;
   font-weight: bolder;
+  color: #89878e;
 }
 
 .logo_container {
@@ -293,4 +316,119 @@ form {
   textarea {
     resize: none;
   }
+}
+
+/* Footer */
+.footer{
+  background-image: url(./images/bgk-footer.png) ;
+  background-position: 0% 0%, 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 35rem;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff8e;
+}
+
+.footer-top{
+ display: flex;
+ gap: 3rem;
+}
+
+
+.footer-left{
+  
+  width: 33%;
+  line-height: 1.5rem;
+  text-align:;
+
+
+}
+
+  .footer-logo{
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 100; /* doesn't apply */
+    height: fit-content;
+    
+  }
+  
+  .footer-logo-color{
+    background-image: linear-gradient(to right,
+    rgba(27, 181, 190, 1) 16%,
+    rgba(71, 101, 150, 1) 100%);
+    background-clip: text;
+    color: transparent;
+    height: max-content;
+}
+
+.footer-center{
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0 2rem 0;
+  width: 33%;
+  
+
+  h2{
+    padding-bottom: 2rem;
+  }
+
+  .studio-flex{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  .studio-flex img{
+    margin-right: 10px;
+  }
+}
+
+.footer-right{
+  padding: 5rem 0 2rem 0;
+ width: 33%;
+
+ h2{
+  padding-bottom: 2rem;
+ }
+}
+
+.footerBtn{
+  padding: .5rem 1.5rem;
+  background-color: hsla(0, 0%, 100%, 0.295);
+  border: none;
+}
+
+
+
+.input-bg{
+  background-color: transparent;
+  padding: 1em;
+  border: hsla(0, 0%, 100%, 0.459) solid 1px;
+  color: hsla(0, 0%, 100%, 0.459);
+}
+
+.inputAndBtn{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: .5rem;
+  padding-bottom: 2rem;
+}
+
+.svg-logo-color{
+  fill: #ffffff83; /* dosn't apply */
+}
+
+.footer-buttom{
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ul{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-decoration: none;
+  list-style: none;
 }
