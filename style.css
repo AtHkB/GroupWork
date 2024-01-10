@@ -326,7 +326,7 @@ form {
   width: 100%;
   height: 35rem;
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #ffffff8e;
 }
 
 .footer-top{
@@ -416,7 +416,7 @@ form {
 }
 
 .svg-logo-color{
-  fill: hsla(0, 0%, 100%, 0.459); /* dosn't apply */
+  fill: #ffffff83; /* dosn't apply */
 }
 
 .footer-buttom{
