@@ -193,6 +193,11 @@
 
 /* form section*/
 
+.formLogoContainer{
+  display: flex;
+  padding: 4rem;
+}
+
 .logo-container {
   display: flex;
   justify-content: space-evenly;
@@ -223,17 +228,19 @@
   font-family: "Playfair Display";
   font-size: 1.2rem;
   font-weight: 600;
+  letter-spacing: 2px;
   display: block;
   padding: 1.2rem;
-  color: #89878e;
+  color: #000;
 }
 
 .form_title {
   font-family: "Playfair Display";
-  padding: 1.2rem 1.2rem 1.2rem 4rem;
+  padding: 1.2rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #89878e;
+  letter-spacing: 2px;
+  color: #000;
 }
 
 .logo_container {
@@ -259,12 +266,8 @@
   }
 }
 
-.headers {
-  flex: 0 1 20%;
-}
-
 form {
-  padding: 4rem;
+  padding: 1rem;
   font-family: "Roboto", sans-serif;
   
   input {
@@ -309,8 +312,10 @@ form {
     padding: 4rem 0 2rem 0;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
     font-size: 2rem;
-    font-weight: 100; /* doesn't apply */
+    
     
     
   }
@@ -321,7 +326,8 @@ form {
     rgba(71, 101, 150, 1) 100%);
     background-clip: text;
     color: transparent;
-    height: 30px;
+    font-size: 36px;
+    height: 30px; 
 }
 
 .footer-center{
@@ -356,7 +362,7 @@ form {
 
 .footerBtn{
   padding: .5rem 1.5rem;
-  background-color: hsla(0, 0%, 100%, 0.295);
+  background-color: hsla(0, 0%, 100%, 0.336);
   border: none;
 }
 
@@ -374,6 +380,7 @@ form {
   flex-wrap: nowrap;
   gap: .5rem;
   padding-bottom: 2rem;
+  
 }
 
 .svg-logo-color{
