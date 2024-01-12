@@ -191,6 +191,134 @@
   border-top: 2px solid #1bb5be;
 }
 
+/* Expertise Section*/
+
+.Expertise {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.Expertise h2 {
+  font-family: "Playful Display";
+  letter-spacing: 1.1px;
+  font-stretch: condensed;
+  text-align: center;
+  margin-top: 2rem;
+}
+.Expertise .subtitle {
+  font-family: "Playful Display";
+  font-stretch: 10%;
+  font-size: larger;
+  text-align: center;
+  color:#6e6e6e;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.grSeparator {
+  display: block;
+  width: 100%;
+  max-width: 54px;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 2px solid #9b9a9a;
+  margin-bottom: 4 rem;
+}
+.Expertise p {
+  font-family: Roboto;
+  font-weight: 300;
+  color: gray;
+  margin-top: 2rem;
+}
+.Expertise div {
+  font-weight: bold;
+  }
+.ExpContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #cfcece;
+  grid-gap: 1px;
+  margin: 2rem 12.5% 3rem 12.5%;
+  }
+.WDD, .BI, .MA, .SEO, .GD, .MWL {
+  background-color: #fff;
+  font-family: "roboto";
+  text-align: center;
+  padding: 2rem;
+}
+.WDD-img, .BI-img, .MA-img, .SEO-img, .GD-img, .MWL-img{
+  filter: brightness(0);
+  margin-bottom: 2rem;
+}
+
+/*Amazing Team Section*/
+.Team {
+  background-image: url(./images/bgk-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  }
+.Team h2 {
+  font-family: "Playful Display";
+  letter-spacing: 1.1px;
+  font-stretch: condensed;
+  text-align: center;
+  padding-top: 4rem;
+  font-weight: lighter;
+}
+.Team .subtitle {
+  font-family: "Playful Display";
+  font-stretch: 10%;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+.grSeparator {
+  display: block;
+  width: 100%;
+  max-width: 54px;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 2px solid #9b9a9a;
+  padding-bottom: 3rem;
+  opacity: 0.6;
+  }
+.Teamcontainer {
+  display: flex;
+  text-transform: uppercase;
+  margin: 0rem 15% 4rem 15%;
+  gap: 2%;
+  padding-bottom: 1rem
+}
+.person {
+  text-align: center;
+  border: 1px solid white;
+}
+.Teamcontainer div img {
+  max-width: 100%;
+  height: auto;
+}
+.eman {
+  margin: 0.5rem;
+}
+.jobtitle {
+  color: gray;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.exhortation {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(231, 231, 231);
+  letter-spacing: 0.15rem;
+}
+
 /* form section*/
 
 .logo-container {
